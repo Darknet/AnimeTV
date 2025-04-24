@@ -1,0 +1,27 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="16dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/sourceName"
+            android:hint="Source Name" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/baseUrl"
+            android:hint="Base URL" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/animeListSelector"
+            android:hint="Anime List CSS Selector" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/episodeSelector"
+            android:hint="Episode List Selector" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/streamUrlSelector"
+            android:hint="Stream URL Selector" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/testSource"
+            android:text="Test Source" android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+        <Button android:id="@+id/saveSource"
+            android:text="Save Source" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
